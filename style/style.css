@@ -152,7 +152,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         background-color: #231f1e;
         overflow: hidden;
         transition: height 0.6s ease; 
@@ -167,7 +167,8 @@ body {
     .burger-list {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
+        margin-top: 50px;
         gap: 20px;
         align-items: flex-start;
         height: 100%;
@@ -231,7 +232,7 @@ body {
     justify-content: center;
     width: 100%;
     max-width: 1150px;
-    margin: 20px auto;
+    margin: 0px auto;
     min-height: 450px;
     position: relative;
     
@@ -334,10 +335,13 @@ body {
 }
 .slot__box { 
     max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    
 }
 .slot__title {
     color: white;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     text-transform: none;
     font-style: normal;
@@ -404,7 +408,7 @@ body {
         padding-right: 30px;
     }
     .slot__title {
-        font-size: 32px;
+        font-size: 34px;
     }
     .slot__content { 
         font-size: 16px;
@@ -573,8 +577,7 @@ table {
 }
 
 td {
-    border: 3px solid white;
-    text-align: center;
+    border: 2px solid #8e7251;
     padding: 10px;
     color: #DCC3BE;
     font-size: 16px;
@@ -747,7 +750,7 @@ td {
     
      }
     .faq-title {
-        font-size: 25px;
+        font-size: 34px;
         margin-bottom: 10px;
      }
     .faq__box {
@@ -768,8 +771,12 @@ td {
        flex-direction: column;
        width: 100%; 
     }
+    .faq-title {
+        font-size: 32px;
+        margin-bottom: 10px;
+     }
     .faq__box-title { 
-        font-size: 20px;
+        font-size: 16px;
         color:white;
         font-weight: 500;
         width: 100%; 
