@@ -213,12 +213,18 @@ body {
         height: 3px;
         background-color: #494c4f;
     }
-    .burgermenu_active .burger-button div {
-        transform: rotate(45deg) translate(5px, 5px);
+    .button-close div:nth-child(1) {
+        transform: rotate(45deg);
+        position: absolute;
+        top: 19px;
+        width: 30px;
     }
     
-    .burgermenu_active .burger-button div:nth-child(2) {
-        transform: rotate(-45deg) translate(7px, -6px);
+    .button-close div:nth-child(2) {
+        transform: rotate(-45deg);
+        position: absolute;
+        bottom: 18px;
+        width: 30px;
     }
  }
 
